@@ -1,0 +1,112 @@
+.choose-apparatus-head{
+  height:1.4rem;
+  line-height:1.4rem;
+  background-color:#fff;
+  border-bottom:solid 1px #c6cbd1;
+  margin-bottom:16px;
+  text-align:center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  .order_search_icon {
+    position: absolute;
+    width: .56rem;
+    top: .2rem;
+    right: .4rem;
+  }
+  .choose-aipparatus-icon{
+    position: absolute;
+    width: 0.83rem;
+    top: 0.2rem;
+    left: 0.4rem;
+    img{
+      width:100%;
+      height:100%;
+    }
+  }
+  .choose-apparatus-title{
+    font-size:0.5rem;
+    font-family: "Microsoft YaHei UI";
+    color:#000;
+    font-weight: bold;
+    display: inline-block;
+  }
+}
+.choose-apparatus-serachorder{
+  margin:0 auto;
+  margin-bottom:0.22rem;
+  width:90%;
+  padding:0.44rem 0.44rem 0.28rem 0.44rem;
+  background-color: #ffffff;
+  box-sizing:border-box;
+  .choose-apparatus-serachorder-input{
+    border-bottom:solid 1px #f0f0f0;
+    &:hover{
+      border-bottom:solid 1px #00c87a;
+    }
+    input{
+      width:90%;
+      height:100%;
+      font-size:0.44rem;
+      font-family:"Microsoft YaHei UI";
+      border:none;
+      margin-bottom:0.14rem;
+    }
+    .choose-apparatus-serachorder-input-icon{
+      width:0.56rem;
+      height:0.56rem;
+      background-size:100% 100%;
+      display: inline-block;
+      background-image: url(./assets/search_normal.png);
+      &:hover{
+         background-image: url(./assets/search_hover.png);
+      }
+    }
+  }
+}
+.choose-apparatus-serach-result{
+  width:90%;
+  // height:2.08rem;
+  margin:0 auto;
+  margin-bottom:0.22rem;
+  // border:solid #f0f0f0 1px;
+  border-left:solid #867252 7px;
+  background-color: #ffffff;
+  box-sizing:border-box;
+  .choose-apparatus-serach-result-light{
+    width:0.22rem;
+    height:2.08rem;
+    background-color: #867252;
+    display: inline-block;
+    float: left;
+    display:none;
+  }
+  .choose-apparatus-serach-result-information{
+    padding:0.44rem 0 0.44rem 0.44rem;
+    width:85%;
+    display: inline-block;
+    word-wrap: break-word;
+    .choose-apparatus-serach-result-information-lineone{
+      font-size:0.44rem;
+      color: #6d6d6d;
+      font-family:"Microsoft YaHei UI";
+      margin-bottom:0.08rem;
+    }
+    .choose-apparatus-serach-result-information-linetwo{
+      font-size:0.44rem;
+      color: #6d6d6d;
+      font-family:"Microsoft YaHei UI";
+    }
+  }
+  .choose-apparatus-serach-result-status{
+    display: inline-block;
+    float: right;
+    margin:0.69rem 0.44rem 0.69rem;
+    font-size:0.44rem;
+    color: #6d6d6d;
+    font-family:"Microsoft YaHei UI";
+  }
+}
+.main_cnt_show{
+  padding-top: 1.6rem;
+}

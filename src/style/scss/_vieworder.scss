@@ -1,0 +1,447 @@
+.view-order-head{
+  height:1.4rem;
+  background-color:#fff;
+  border-bottom:solid 1px #c6cbd1;
+  margin-bottom:0.22rem;
+  text-align:center;
+  position:relative;
+  line-height: 1.4rem;
+  .view-order-head-icon{
+    position: absolute;
+    width: 0.83rem;
+    top: 0.2rem;
+    left: 0.4rem;
+    img{
+      width:100%;
+      height:100%;
+    }
+  }
+  .view-order-head-title{
+    font-size:0.5rem;
+    font-family: "Microsoft YaHei UI";
+    color:#000;
+    font-weight: bold;
+    display: inline-block;
+  }
+  .order_search_icon{
+    position: absolute;
+    width: 0.56rem;
+    top: 0.2rem;
+    right: 0.4rem;
+    img{
+      width:100%;
+      height:100%;
+    }
+  }
+}
+.view-order-serachorder{
+  margin: 0 0.3rem;
+  background-color: #ffffff;
+  .view-order-serachorder-input{
+    font-size:0.44rem;
+    .in_search_icon{
+      width:0.3rem;
+    }
+    .searchText{
+      color:#ffa700;
+    }
+    span{
+      font-size:0.45rem;
+    }
+      input{
+        width: 70%;
+        height: 0.7rem;
+        line-height:0.7rem;
+        margin-left: 0.7rem;
+        font-size: 0.44rem;
+        font-family: "Microsoft YaHei UI";
+        border: none;
+        margin-bottom: 0.14rem;
+        display: inline-block;
+        padding: 0.1rem;
+        border-radius: 0.1rem;
+        background:#ececec url(./assets/search_normal.png) no-repeat 0.2rem center;
+        background-size: 0.5rem;
+        text-indent: 0.8rem;
+      }
+    }
+    .view-order-serachorder-input-icon{
+      width:0.56rem;
+      height:0.56rem;
+      display: inline-block;
+      background-size:100% 100%;
+      background-image: url(./assets/search_normal.png);
+      &:hover{
+        background-image: url(./assets/search_hover.png);
+      }
+    }
+  }
+.view-order-serach-term{
+  margin:0 auto;
+  margin-bottom:16px;
+  width:684px;
+  background-color: #ffffff;
+  position:relative;
+  .view-order-serach-term-left{
+    display: inline-block;
+    margin:32px;
+    color: #000000;
+    font-size: 24px;
+    font-family:"Microsoft YaHei UI";
+  }
+  .view-order-serach-term-right{
+    display: inline-block;
+    margin:32px 24px 32px 32px;
+    color: #000000;
+    font-size: 24px;
+    float: right;
+    font-family:"Microsoft YaHei UI";
+    border:0;
+    width: 217px;
+    text-align: right;
+  }
+  .view-order-serach-term-icon{
+    width:10px;
+    height: 10px;
+    float: right;
+    margin-right:32px;
+    margin-top: 48px;
+    background-image: url(./assets/list_ddm.png);
+  }
+  .selectArrow{
+    position: absolute;
+    top: -10px;
+    right: 54px;
+    width: 16px;
+    height: 23px;
+    transform: rotate(45deg);
+    background: #fff;
+  }
+  .orderStatus_select{
+    top:325px;
+    position: fixed;
+    background:rgba(235,239,242,0.9);
+    height:100%;
+    width:90%;
+    left:38px;
+    z-index:100;
+    .option_list{
+      height: 50%;
+      overflow: auto;
+      .option_cell{
+        padding:32px 16px;
+        background:#fff;
+        border-bottom:solid 2px #f0f0f0;
+        font-size:24px;
+        display: flex;
+        align-items: center;
+        color:#353030;
+        position:relative;
+        .option_icon{
+          display:inline-block;
+          width:36px;
+          height:36px;
+          margin-right:32px;
+          margin-left:16px;
+        }
+        .icon_heart{
+          position:absolute;
+          top:34px;
+          right:32px;
+          background:url(./assets/formpage_01.png) no-repeat;
+          width:22px;
+          height:22px;
+          display:none;
+        }
+        .option_icon_all{
+          background:url(./assets/icon_qb_normal.png) no-repeat;
+        }
+        .option_icon_finish{
+          background:url(./assets/icon_ywc_hover.png) no-repeat;
+        }
+        .option_icon_revoke{
+          background:url(./assets/icon_ycx_hover.png) no-repeat;
+        }
+        .option_icon_preCheck{
+          background:url(./assets/icon_wqr_hover.png) no-repeat;
+        }
+        .option_icon_checked{
+          background:url(./assets/icon_yjs_hover.png) no-repeat;
+        }
+        .option_icon_supplierCon{
+          background:url(./assets/icon_gysyqr_hover.png) no-repeat;
+        }
+        .option_icon_rush{
+          background:url(./assets/icon_jj_hover.png) no-repeat;
+        }
+        .option_icon_writeRevoke{
+          background:url(./assets/icon_ycx_hover.png) no-repeat;
+        }
+        .option_icon_conRevoke{
+          background:url(./assets/icon_yjs_hover.png) no-repeat;
+        }
+        .option_icon_conDeliver{
+          background:url(./assets/icon_gysqr_hover.png) no-repeat;
+        }
+        .option_icon_preOperate{
+          background:url(./assets/icon_wqr_hover.png) no-repeat;
+        }
+        .option_icon_nurseCheckFalse{
+          background:url(./assets/icon_gyswqr_hover.png) no-repeat;
+        }
+        .option_icon_quoteBilling{
+          background:url(./assets/icon_pt_hover.png) no-repeat;
+        }
+        .option_icon_billFalse{
+          background:url(./assets/icon_wtgsh_hover.png) no-repeat;
+        }
+        .option_icon_all{
+          background:url(./assets/icon_qb_hover.png) no-repeat;
+        }
+        .option_icon_ok{
+          background:url(./assets/icon_gysyqr_normal.png) no-repeat;
+        }
+        .option_icon_no{
+          background:url(./assets/icon_gyswqr_normal.png) no-repeat;
+        }
+      }
+      .option_cell:focus{
+        border-left:solid 16px $green;
+        background:url(./assets/list_selected.png) no-repeat;
+        outline:none;
+        color:#000;
+      }
+      .option_cell:focus .icon_heart{
+        display:inline-block;
+      }
+      .option_cell_one:focus .option_icon_all{
+         background-image:url(./assets/icon_qb_hover.png);
+      }
+      .option_cell_two:focus .option_icon_ok{
+         background-image:url(./assets/icon_gysyqr_hover.png);
+      }
+      .option_cell_three:focus .option_icon_no{
+         background-image:url(./assets/icon_gyswqr_hover.png);
+      }
+      .option_cell:focus .option_icon{
+         margin-left:0;
+      }
+    }
+  }
+}
+.view-order-serach-result,.itemChoosed{
+  width:95%;
+  // height:130px;
+  margin:0.15rem auto 0.22rem;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-left:solid 0.22rem #867252;
+  padding: 0.22rem;
+  .view-order-serach-result-wrap{
+    background: #f9f9f9;
+    padding:0.28rem;
+    position:relative;
+  }
+  .view-order-serach-result-information{
+    width:72%;
+    display: inline-block;
+    .view-order-serach-result-information-patientId{
+      font-size:0.44rem;
+      color: #6d6d6d;
+      font-family:"Microsoft YaHei UI";
+      margin-bottom:0.14rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .view-order-serach-result-information-orderid{
+      font-size:0.44rem;
+      color: #6d6d6d;
+      font-family:"Microsoft YaHei UI";
+      margin-bottom:0.08rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+  .view-order-serach-result-status{
+    display: inline-block;
+    font-size:0.44rem;
+    color: #6d6d6d;
+    font-family:"Microsoft YaHei UI";
+    position: absolute;
+    right:0.28rem;
+    top: 37%;
+  }
+}
+.view-order-serach-list{
+  .list-cell{
+    padding:0.5rem 0.22rem;
+    background:#fff;
+    border-left:#867252 solid 16px;
+    overflow:auto;
+    font-size:0.44rem;
+    color:#6d6d6d;
+    margin:0 0.25rem 0.22rem;
+    cursor:pointer;
+    .left-cell{
+      float:left;
+      .margin{
+        margin-top:0.22rem;
+      }
+    }
+    .right-cell{
+      float:right;
+      margin-top:0.36rem;
+    }
+  }
+  .list-cell:focus{
+    border-left:#00c87a solid 0.22rem;
+    background:url(./assets/xlcd_selected.png) no-repeat;
+    background-size: cover;
+    outline: 0;
+  }
+}
+.dataBox{
+  margin:18px;
+}
+.itemChoosed{
+   width:95%;
+  // height:130px;
+  margin:0.15rem auto 0.22rem;
+  box-sizing: border-box;
+  background:url(./assets/xlcd_selected.png) no-repeat;
+  background-size: cover;
+  outline: 0;
+  border-left:solid 0.22rem #00c87a;
+  .view-order-serach-result-wrap{
+    background-size: #f7f9fb;
+  }
+}
+.type_wrap{
+    width: 95%;
+    margin: auto;
+    // overflow: auto;
+    // overflow-y: hidden;
+    // background: #dfe1e4;
+    // padding: 0.2rem;
+    box-sizing: border-box;
+    position:relative;
+    .type_ul_wrap{
+      font-size:0.44rem;
+      display: flex;
+      justify-content: space-between;
+      border: solid 1px #c6cbd1;
+      background: #f0f0f0;
+      border-radius: 0.1rem;
+      margin-bottom:0.3rem;
+      li{
+        padding: 0.15rem 0.3rem;
+        list-style: none;
+        white-space: nowrap;
+        position: relative;
+        background: #fff;
+        font-size: 0.4rem;
+        border-radius: 0.1rem;
+        width: 26.5%;
+        text-align: center;
+        .order_num{
+          position: absolute;
+          width: 0.6rem;
+          height: 0.6rem;
+          line-height: 0.6rem;
+          background: #f82a34;
+          color: #fff;
+          border-radius: 50%;
+          top: -0.2rem;
+          right: -0.3rem;
+          text-align: center;
+          font-size: 0.4rem;
+          z-index:999;
+        }
+      }
+      .type_tab_active {
+        background: #ffa700;
+        color: #fff;
+        border-radius: 0.1rem;
+        font-size: 0.46rem;
+      }
+    }
+}
+.tab_wrap{
+    width: 95%;
+    margin: auto;
+    overflow: auto;
+    overflow-y: hidden;
+    background: #fff;
+    padding: 0.2rem;
+    box-sizing: border-box;
+    position:relative;
+    .slide_warn_icon{
+      background:#fff url(./assets/slide_icon.png) no-repeat center;
+      width:1.2rem;
+      height:0.8rem;
+      background-size:60% 60%;
+      position:fixed;
+      top:3.1rem;
+      right:0.29rem;
+      display:none;
+    }
+    @-webkit-keyframes start {
+      0%,30% {opacity: 0;-webkit-transform: translate(-8px,0);}
+      60% {opacity: 1;-webkit-transform: translate(0,0);}
+      100% {opacity: 0;-webkit-transform: translate(10px,0);}
+    }
+    @-moz-keyframes start {
+      0%,30% {opacity: 0;-moz-transform: translate(-8px,0);}
+      60% {opacity: 1;-moz-transform: translate(0,0);}
+      100% {opacity: 0;-moz-transform: translate(10px,0);}
+    }
+    @keyframes start {
+      0%,30% {opacity: 0;transform: translate(-8px,0);}
+      60% {opacity: 1;transform: translate(0,0);}
+      100% {opacity: 0;transform: translate(10px,0);}
+    }
+    .ul_wrap{
+      font-size:0.44rem;
+      display: flex;
+      justify-content: space-around;
+      li{
+        padding: 0.1rem 0.3rem;
+        list-style: none;
+        white-space: nowrap;
+      }
+      .tab_active {
+        color: #ffa700;
+        border-bottom: 1px solid #ffa700;
+      }
+    }
+}
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/  
+::-webkit-scrollbar  
+{  
+    width: 0px;  
+    height: 0px;  
+    background-color: #F5F5F5;  
+}  
+  
+/*定义滚动条轨道 内阴影+圆角*/  
+::-webkit-scrollbar-track  
+{  
+    -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0);  
+    border-radius: 10px;  
+    background-color: #F5F5F5;  
+}  
+  
+/*定义滑块 内阴影+圆角*/  
+::-webkit-scrollbar-thumb  
+{  
+    border-radius: 10px;  
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);  
+    background-color: #555;  
+}  
+.view-order{
+  .mescroll{
+    top:4.2rem;
+  }
+}

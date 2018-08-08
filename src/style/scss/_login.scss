@@ -1,0 +1,56 @@
+
+.login_cnt{
+	background:#fff;
+	padding-bottom:100px;
+}
+.top_section{
+	height:712px;
+	width:100%;
+	text-align:center;
+}
+.middle_section{
+	margin-bottom:160px;
+	.login_ipt_group{
+		margin:0 64px;
+		overflow:auto;
+		.login_icon{
+			float:left;
+			width:36px;
+			height:36px;
+			margin-right:32px;
+		}
+		.login_ipt{
+			width: 86%;
+		    height: 36px;
+		    line-height:36px;
+		    float: left;
+		    border:0;
+		    border-bottom:solid 1px #f0f0f0;
+		    font-size:24px;
+		    color:#d7d8d8;
+		}
+	}
+	.login_ipt_name{
+		margin-bottom:54px;
+	}
+}
+.foot_section{
+	text-align:center;
+	height:64px;
+	line-height:64px;
+	border-top:solid 1px #c6cbd1;
+	color:#b6c4c2;
+	font-size:22px;
+}
+.login_btn_login{
+	width:592px;
+	height:56px;
+	background:#ddfbe5;
+	color:#05a164;
+	border:solid 1px #05c87c;
+	border-radius:2px;
+	font-size:24px;
+	text-align:center;
+	line-height:56px;
+	margin:0 auto;
+}

@@ -1,0 +1,142 @@
+.docindex-head{
+  height:1.4rem;
+  background-color:#fff;
+  border-bottom:solid 1px #c6cbd1;
+  overflow:hidden;
+  line-height:1.4rem;
+  .docindex-head-title{
+    margin-left:0.44rem;
+    font-size:0.4rem;
+    font-family: "Microsoft YaHei UI";
+    color:#000;
+    font-weight: bold;
+    display: inline-block;
+  }
+  .docindex-head_right{
+    float:right;
+  }
+  .docindex-head-name{
+    float: right;
+    font-size: .4rem;
+    color: #000;
+    margin-right: 0.9rem;
+    max-width:4.2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .head_toggle{
+    width: 0;
+    height: 0;
+    border-left: 0.2rem solid transparent;
+    border-right: 0.2rem solid transparent;
+    border-top: 0.2rem solid #000;
+    display: inline-block;
+    position: absolute;
+    top: 0.6rem;
+    right: 0.426667rem;
+  }
+  .head_toggle_active{
+    width: 0;
+    height: 0;
+    border-left: 0.2rem solid transparent;
+    border-right: 0.2rem solid transparent;
+    border-bottom: 0.2rem solid #000;
+    display: inline-block;
+    position: absolute;
+    top: 0.6rem;
+    right: 0.426667rem;
+  }
+}
+.docindex-banner{
+  margin:auto;
+  display: block;
+  width:100%;
+  img{
+    width:100%;
+    height:100%;
+  }
+}
+.docindex-function{
+  margin:0.89rem 0.44rem 0 0.44rem;
+  text-align: center;
+  .docindex-function-orderview{
+    display: inline-block;
+    width:40%;
+    text-align: center;
+    border-right:solid 1px rgb(198,203,209);
+    .docindex-function-orderview-icon{
+      width: 1rem;
+      height: 1.2rem;
+      text-align: center;
+      margin: 0 auto;
+      background: url(./assets/home/home_icon_toview.png) no-repeat;
+      position:relative;
+      background-size:100% 100%;
+      .number{
+        position: absolute;
+        font-size: 0.4rem;
+        color: #fff;
+        background: #f82a34;
+        border-radius: 50%;
+        left: 1.1rem;
+        top: 0;
+        width: 0.6rem;
+        height: 0.6rem;
+        text-align: center;
+        line-height: 0.6rem
+      }
+    }
+    .docindex-function-orderview-title{
+      color: #000000;
+      font-size:0.4rem;
+      margin-top:0.33rem;
+      margin-bottom:0.22rem;
+      font-family: "Microsoft YaHei UI";
+    }
+    .docindex-function-orderview-titleE{
+      color: #847253;
+      font-size: 0.44rem;
+      font-family:Roboto;
+    }
+  }
+  .docindex-function-orderhistory{
+    display: inline-block;
+    width:40%;
+    text-align: center;
+    .docindex-function-orderhistory-icon{
+      position: relative;
+      width: 1rem;
+      height: 1.2rem;
+      text-align: center;
+      margin: 0 auto;
+      background: url(./assets/home/home_icon_details.png) no-repeat;
+      background-size:100% 100%;
+      .number{
+        position: absolute;
+        font-size: 0.4rem;
+        color: #fff;
+        background: #f82a34;
+        border-radius: 50%;
+        left: 1.1rem;
+        top: 0;
+        width: 0.6rem;
+        height: 0.6rem;
+        text-align: center;
+        line-height: 0.6rem
+      }
+    }
+    .docindex-function-orderhistory-title{
+      color: #000000;
+      font-size:0.4rem;
+      margin-top:0.33rem;
+      margin-bottom:0.22rem;
+      font-family: "Microsoft YaHei UI";
+    }
+    .docindex-function-orderhistory-titleE{
+      color: #847253;
+      font-size: 0.44rem;
+      font-family:Roboto;
+    }
+  }
+}

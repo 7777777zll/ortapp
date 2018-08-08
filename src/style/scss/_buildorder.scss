@@ -1,0 +1,469 @@
+.build-order-head{
+  height:1.4rem;
+  line-height:1.4rem;
+  background-color:#fff;
+  border-bottom:solid 1px #c6cbd1;
+  margin-bottom:0.22rem;
+  text-align:center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 999;
+  .build-orde-head-icon{
+    position: absolute;
+    width: 0.83rem;
+    top: 0.2rem;
+    left: 0.4rem;
+    img{
+      width:100%;
+      height:100%;
+    }
+  }
+  .build-order-head-title{
+    font-size:0.5rem;
+    font-family: "Microsoft YaHei UI";
+    color:#000;
+    font-weight: bold;
+    display: inline-block;
+  }
+}
+.hidenicon{
+  height:0.6rem;
+  width:0.11rem;
+  display: inline-block;
+  position: relative;
+  top:0.08rem;
+  left:-0.42rem;
+}
+.build-order-information{
+  width:90%;
+  background-color:#fff;
+  margin:0 auto;
+  border:solid 1px #f0f0f0;
+  margin-bottom:8px;
+  margin-top: 1.6rem;
+  .build-order-information-hidenicon{
+    background: #fd6c7b;
+  }
+  .build-order-information-title{
+    padding:0.3rem 0.33rem 0.33rem 0.5rem;
+    font-size:0.44rem;
+    font-family: "Microsoft YaHei UI";
+    color:#000;
+    border-bottom:solid 1px #f0f0f0;
+  }
+}
+.icon_toggle{
+  width: 0;
+  height: 0;
+  border-left: 0.2rem solid transparent;
+  border-right: 0.2rem solid transparent;
+  border-top: 0.2rem solid #ccc;
+  display: inline-block;
+  position: absolute;
+  top: 0.7rem;
+  right: 0.36rem;
+}
+.icon_toggle_active{
+  width: 0;
+  height: 0;
+  border-left: 0.14rem solid transparent;
+  border-right: 0.14rem solid transparent;
+  border-bottom: 0.14rem solid #ccc;
+  display: inline-block;
+  position: absolute;
+  top: 0.58rem;
+  right: 0.36rem;
+}
+.build-order-information-operation{
+  .build-order-information-operation-title{
+    padding:0.3rem 0.33rem 0.3rem 0.5rem;
+    font-size:0.44rem;
+    font-family: "Microsoft YaHei UI";
+    color:#b6b7b7;
+  }
+  .build-order-information-operation-chooseresult{
+    border-bottom:solid 1px #f0f0f0;
+    input{
+      border:none;
+      padding:0 0.33rem 0.33rem 0.5rem;
+      font-size:0.44rem;
+      font-family: "Microsoft YaHei UI";
+      color:#000;
+      display:inline-block;
+      width:100%;
+    }
+  }
+}
+.build-order-information-operation-detail{
+  padding:0.5rem 0.33rem 0.33rem 0.5rem;
+  text-align:center;
+  .build-order-information-operation-detail-button{
+    width: 90%;
+    height: 0.95rem;
+    line-height:0.95rem;
+    color: #05a164;
+    font-size: 0.44rem;
+    background-color: #ddfbe6;
+    border: solid 1px #11cd81;
+    font-family: "Microsoft YaHei UI";
+  }
+}
+.build-order-patient-detail{
+  width:90%;
+  background-color:#fff;
+  margin:0 auto;
+  border:solid 1px #f0f0f0;
+  margin-bottom:0.22rem;
+  .build-order-patient-detail-hidenicon{
+    background: #fac369;
+  }
+  .build-order-patient-detail-title{
+    padding:0.3rem 0.33rem 0.33rem 0.5rem;
+    font-size:0.44rem;
+    font-family: "Microsoft YaHei UI";
+    color:#000;
+    border-bottom:solid 2px #f0f0f0;
+    position:relative;
+  }
+  .build-order-patient-detail-information{
+    input.pat{
+      border:none;
+      font-size:0.4rem;
+      font-family: "Microsoft YaHei UI";
+      color:#000;
+      width:100%;
+    }
+    padding:0.33rem 0.5rem 0.33rem 0.5rem;
+    .build-order-patient-detail-id{
+      display: inline-block;
+      width:40%;
+      color:#b6b7b7;
+      font-size:0.44rem;
+      margin-right:0.75rem;
+      margin-bottom:0.44rem;
+      border-bottom:solid 1px #f0f0f0;
+      font-family: "Microsoft YaHei UI";
+      .build-order-patient-detail-id-name{
+        margin-bottom:0.44rem;
+      }
+    }
+    .build-order-patient-detail-patid{
+      display: inline-block;
+      width:40%;
+      color:#b6b7b7;
+      font-size:0.44rem;
+      margin-bottom:0.44rem;
+      border-bottom:solid 1px #f0f0f0;
+      font-family: "Microsoft YaHei UI";
+      .build-order-patient-detail-patid-name{
+        margin-bottom:0.44rem;
+      }
+    }
+    .build-order-patient-detail-name{
+      display: inline-block;
+      width:40%;
+      color:#b6b7b7;
+      font-size:0.44rem;
+      margin-right:0.75rem;
+      margin-bottom:0.44rem;
+      border-bottom:solid 1px #f0f0f0;
+      font-family: "Microsoft YaHei UI";
+      .build-order-patient-detail-name-name{
+        margin-bottom:0.44rem;
+      }
+    }
+    .build-order-patient-detail-age{
+      display: inline-block;
+      width:40%;
+      color:#b6b7b7;
+      font-size:0.44rem;
+      margin-bottom:0.44rem;
+      border-bottom:solid 1px #f0f0f0;
+      font-family: "Microsoft YaHei UI";
+      .build-order-patient-detail-age-name{
+        margin-bottom:0.44rem;
+      }
+    }
+    .build-order-patient-detail-sex{
+      display: inline-block;
+      color:#b6b7b7;
+      font-size:0.44rem;
+      margin-bottom:0.44rem;
+      font-family: "Microsoft YaHei UI";
+      .redioSex{
+        input[type="radio"] {
+          display: inline-block;
+          width: 0.7rem;
+          height: .7rem;
+          vertical-align: middle;
+        }
+        .patSex{
+          background: url(./assets/sexDefault.png) no-repeat;
+          background-size: 100% 100%;
+        }
+        .womon{
+          margin-left:0.1rem;
+        }
+        label {
+          cursor: pointer; 
+          vertical-align: middle; 
+        }
+        .radioChecked {
+          background: url(./assets/sexSelected.png) no-repeat;
+          background-size: 100% 100%;
+        }
+      }
+      .build-order-patient-detail-sex-name{
+        margin-bottom:0.44rem;
+      }
+      .build-order-patient-detail-sex-data{
+        position:relative;
+        width:auto;
+        .icon_toggleTop{
+          width: 0;
+          height: 0;
+          border-left: 0.18rem solid transparent;
+          border-right: 0.18rem solid transparent;
+          border-bottom: 0.18rem solid #ccc;
+          display: inline-block;
+          position: absolute;
+          top: 0;
+          right: 0;
+        }
+        .icon_toggleBottom{
+          width: 0;
+          height: 0;
+          border-left: 0.18rem solid transparent;
+          border-right:0.18rem solid transparent;
+          border-top:  0.18rem solid #ccc;
+          display: inline-block;
+          position: absolute;
+          top: 0.28rem;
+          right: 0;
+        }
+        .icon_toggleTopChoosed{
+          width: 0;
+          height: 0;
+          border-left: 0.18rem solid transparent;
+          border-right: 0.18rem solid transparent;
+          border-bottom: 0.18rem solid #05a164;
+          display: inline-block;
+          position: absolute;
+          top: 0;
+          right: 0;
+        }
+        .icon_toggleBottomChoosed{
+          width: 0;
+          height: 0;
+          border-left: 0.18rem solid transparent;
+          border-right: 0.18rem solid transparent;
+          border-top: 0.18rem solid #05a164;
+          display: inline-block;
+          position: absolute;
+          top: 0.28rem;
+          right: 0;
+        }
+        .patSex{
+          width:100%;
+          border:0;
+        }
+        .sex_drop{
+          position:absolute;
+          width:3.89rem;
+          margin-top:0.44rem;
+          z-index:99;
+          li{
+            padding:0.17rem 0.28rem;
+            background:#f6f6f7;
+            // border:solid 1px #dbdbde;
+            color:#000;
+            cursor:pointer;
+            width:100%;
+            box-sizing: border-box;
+          }
+         .liFocus{
+            background:#ddfbe6;
+            border:solid 1px #05c87c;
+            color:#05a164;
+            padding:0.17rem 0.28rem;
+            cursor:pointer;
+            width:100%;
+            box-sizing: border-box;
+          }
+        }
+      }
+    }
+  }
+}
+.build-order-package{
+  width:90%;
+  background-color:#fff;
+  margin:0 auto;
+  border:solid 1px #f0f0f0;
+  margin-bottom:0.22rem;
+  .build-order-package-title{
+    padding:0.3rem 0.33rem 0.33rem 0.5rem;
+    font-size:0.44rem;
+    font-family: "Microsoft YaHei UI";
+    color:#000;
+    border-bottom:solid 1px #f0f0f0;
+    position:relative;
+    .build-order-package-hidenicon{
+      background: #89bdf9;
+    }
+  }
+  .build-order-package-choosepackage{
+    .build-order-package-choosepackage-title{
+      padding:0.3rem 0.33rem 0.33rem 0.5rem;
+      font-size:0.44rem;
+      font-family: "Microsoft YaHei UI";
+      color:#b6b7b7;
+    }
+    .build-order-package-choosepackage-data{
+      border-bottom:solid 1px #f0f0f0;
+      margin:0 0.44rem 0.33rem;
+      padding-bottom:0.33rem;
+
+      .build-order-package-choosepackage-data-content{
+        display: inline-block;
+        width: 90%;
+        input{
+          width:100%;
+          border:none;
+          font-size:0.44rem;
+          font-family: "Microsoft YaHei UI";
+          color:#000;
+        }
+      }
+      .build-order-package-choosepackage-data-icon{
+        display: inline-block;
+        width:0.56rem;
+        height:0.56rem;
+        background-size:100% 100%;
+        background-image: url(./assets/search_normal.png);
+        &:hover{
+          background-image: url(./assets/search_hover.png);
+        }
+      }
+    }
+  }
+
+.build-order-package-chooseappturate{
+  .build-order-package-chooseappturate-title{
+    padding:0.3rem 0.44rem 0.5rem;
+    font-size:0.44rem;
+    font-family: "Microsoft YaHei UI";
+    color:#b6b7b7;
+  }
+  .build-order-package-chooseappturate-data{
+    border-bottom:solid 1px #f0f0f0;
+    margin:0 0.44rem 0.44rem;
+    padding-bottom:0.33rem;
+    .build-order-package-chooseappturate-content{
+      display: inline-block;
+      width: 90%;
+      input{
+        width:100%;
+        border:none;
+        font-size:0.44rem;
+        font-family: "Microsoft YaHei UI";
+        color:#000;
+      }
+    }
+    .build-order-package-chooseappturate-icon{
+      display: inline-block;
+      width:0.56rem;
+      height:0.56rem;
+      background-size:100% 100%;
+      background-image: url(./assets/search_normal.png);
+      &:hover{
+        background-image: url(./assets/search_hover.png);
+      }
+    }
+  }
+}
+
+  .build-order-package-vendor{
+    .build-order-package-vendor-title{
+      padding:0.3rem 0.44rem 0.5rem;
+      font-size:0.44rem;
+      font-family: "Microsoft YaHei UI";
+      color:#b6b7b7;
+    }
+    .build-order-package-vendor-data{
+      border-bottom:solid 1px #f0f0f0;
+      margin:0 0.44rem 0.33rem 0.44rem;
+      padding-bottom:0.33rem;
+      .build-order-package-vendor-data-content{
+        display: inline-block;
+        width: 90%;
+        input{
+          width:100%;
+          border:none;
+          font-size:0.44rem;
+          font-family: "Microsoft YaHei UI";
+          color:#000;
+        }
+      }
+      .build-order-package-vendor-data-icon{
+        display: inline-block;
+        width:0.56rem;
+        height:0.56rem;
+        background-size:100% 100%;
+        background-image: url(./assets/search_normal.png);
+        &:hover{
+          background-image: url(./assets/search_hover.png);
+        }
+      }
+    }
+  }
+}
+.build-order-remark{
+  width:90%;
+  background-color:#fff;
+  margin:0 auto;
+  border:solid 1px #f0f0f0;
+  margin-bottom:0.22rem;
+  .build-order-remark-title{
+    padding:0.3rem 0.33rem 0.33rem 0.5rem;
+    font-size:0.44rem;
+    font-family: "Microsoft YaHei UI";
+    color:#000;
+    border-bottom:solid 1px #f0f0f0;
+    position:relative;
+    .build-order-remark-hidenicon{
+      background:#cbaafe;
+    }
+  }
+  .build-order-remark-information{
+    padding:0.44rem;
+    .build-order-remark-information-input{
+      textarea{
+        width:90%;
+        border:none;
+        height:3.33rem;
+        font-size:0.44rem;
+        padding:0.44rem;
+        border:solid 1px #f0f0f0;
+      }
+    }
+  }
+}
+.build-order-confirm{
+  margin-bottom:0.5rem;
+  .build-order-confirm-button{
+    text-align:center;
+    button{
+      width:90%;
+      height: 1rem;
+      line-height: 1rem;
+      color: #05a164;
+      font-size: 0.44rem;
+      font-family: "Microsoft YaHei UI";
+      background-color: #ddfbe6;
+      border:solid 1px rgb(17,205,129);
+    }
+  }
+}
